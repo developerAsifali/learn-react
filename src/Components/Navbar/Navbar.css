@@ -1,0 +1,42 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: blueviolet;
+    color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left a{
+    text-decoration: none;
+    color: snow;
+}
+.left h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.mid ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: snow;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
